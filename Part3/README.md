@@ -6,7 +6,7 @@ To complete this exercise you will have to use git. Create one or several commit
 When answering the questions, remember to use all the resources at your disposal. Asking the internet isn't a form of "cheating", it's a way of learning.
 
  ### What is concurrency? What is parallelism? What's the difference?
- > *hvo heter du?*
+ > *Concurrency means more than one program is being executed at the same time.Parallelism means one program is split into sub tasks and these are executed at the same time parallely.Concurrency is about managing multiple programs execution either sequentially (one after other) or partially (portion of a program at a time).On the other hand,parallel programs execution is about managing single program execution either completely (start to end) or splitting (sub tasks).During parallel execution there is sharing of memory and not necessarily the machine also but during concurrent execution there is sharing of memory and machine.*
  
  ### Why have machines become increasingly multicore in the past decade?
  > *Your answer here*
