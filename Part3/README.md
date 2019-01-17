@@ -13,7 +13,10 @@ When answering the questions, remember to use all the resources at your disposal
  
  ### What kinds of problems motivates the need for concurrent execution?
  (Or phrased differently: What problems do concurrency help in solving?)
- > *Your answer here*
+ > *1.All problems cannot be solved by parallel algortihm and all machines does not support parallel computation in such cases concurrent programming might be very useful (some programs are well suited to solve with concurrency).
+    2.Input/output intensive programs wait for the input or output operations to be completed but this waiting time can be used for another task if concurrent programming is used (reduce latency and redundancy).
+    3.If the tasks does not have common sense of time its better to solve them with concurrent programming because any task can be executed with available resources at any time (difficulty in scheduling tasks at the right granularity onto the processors).
+    4.Some programs spend a lot of time in memory allocations and garbage collections so in such cases its better to use concurrent programming for avoiding memory issues and save time that is increased performance.*
  
  ### Does creating concurrent programs make the programmer's life easier? Harder? Maybe both?
  (Come back to this after you have worked on part 4 of this exercise)
