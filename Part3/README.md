@@ -20,7 +20,7 @@ When answering the questions, remember to use all the resources at your disposal
  
  ### Does creating concurrent programs make the programmer's life easier? Harder? Maybe both?
  (Come back to this after you have worked on part 4 of this exercise)
- > *Your answer here*
+ > *I think it makes a programmers's life harder because while doing concuurent programming he might need to consider low level things such as sharing of memory/data and message passing with addition tension of deadlocks and race conditions.*
  
  ### What are the differences between processes, threads, green threads, and coroutines?
  > *Your answer here*
