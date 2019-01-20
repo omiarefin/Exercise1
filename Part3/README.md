@@ -30,7 +30,7 @@ Green threads: same as threads but not OS managed sharing same memory,cannot be 
  > *pthread_create()*
  
  ### How does pythons Global Interpreter Lock (GIL) influence the way a python Thread behaves?
- > *Your answer here*
+ > *Global Interpreter Lock (GIL) prevents CPU based multiple threads to be executed in parallel in python which results in increased execution time but for I/O bound multiple threads its not a problem because the lock is shared among them when waiting for I/O.*
  
  ### With this in mind: What is the workaround for the GIL (Hint: it's another module)?
  > *Your answer here*
