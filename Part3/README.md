@@ -23,10 +23,11 @@ When answering the questions, remember to use all the resources at your disposal
  > *I think it makes a programmer's life harder because while doing concurrent programming he might need to consider low level things such as sharing of memory/data and message passing with addition tension of deadlocks and race conditions.*
  
  ### What are the differences between processes, threads, green threads, and coroutines?
- > *Your answer here*
+ > *Processes: OS managed,have own virtual address space,can be interrupted by the system,can run in parllel with other processes. Threads: OS managed,present inside a process,share the same virtual address,can be interrupted by the system,can be run in parallel with other threads.
+Green threads: same as threads but not OS managed sharing same memory,cannot be interrupted by the system,cannot be run in parallel,can be multiplexed. Coroutines: same as threads but not OS managed,cannot be run in parallel,cannot be multiplexed*
  
  ### Which one of these do `pthread_create()` (C/POSIX), `threading.Thread()` (Python), `go` (Go) create?
- > *Your answer here*
+ > *pthread_create()*
  
  ### How does pythons Global Interpreter Lock (GIL) influence the way a python Thread behaves?
  > *Your answer here*
