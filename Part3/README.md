@@ -33,7 +33,7 @@ Green threads: same as threads but not OS managed sharing same memory,cannot be 
  > *Global Interpreter Lock (GIL) prevents CPU based multiple threads to be executed in parallel in python which results in increased execution time but for I/O bound multiple threads its not a problem because the lock is shared among them when waiting for I/O.*
  
  ### With this in mind: What is the workaround for the GIL (Hint: it's another module)?
- > *Your answer here*
+ > *Multiple processes can be used instead of multiple threads where each process has its own python interpreter and memory address so GIL won't be a problem.The multiprocessing module of pyhton enables us to create multiple processes easily.*
  
  ### What does `func GOMAXPROCS(n int) int` change? 
  > *func GOMAXPROCS(n int) int changes the number of operating system threads that can execute user level go code simulataneously.*
