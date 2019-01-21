@@ -36,4 +36,4 @@ Green threads: same as threads but not OS managed sharing same memory,cannot be 
  > *Your answer here*
  
  ### What does `func GOMAXPROCS(n int) int` change? 
- > *Your answer here*
+ > *func GOMAXPROCS(n int) int changes the number of operating system threads that can execute user level go code simulataneously.*
